@@ -1,0 +1,35 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.project_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project_item{
+  margin: 10px;
+}
+
+.filter_buttons_box {
+  display: flex;
+}
+
+.button_white {
+  margin-right: 5px;
+  padding: 4px 8px;
+  background-color: white;
+  border: 1px solid #545455;
+  color: #545455;
+  cursor: pointer;
+}
+
+.button_black {
+  margin-right: 5px;
+  padding: 4px 8px;
+  background-color: #545455;
+  border: 1px solid #545455;
+  color: white;
+  cursor: pointer;
+}
